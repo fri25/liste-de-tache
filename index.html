@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTE DE TACHES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <h1>LISTE DES TACHES</h1>
+ <div class="app">
+    <input type="text" id="taskInput" placeholder="Ajouter une tàche ...">
+    <input type="date" id="taskDate">
+    <input type="time" id="taskTime">
+    <button onclick="addTask()">Ajouter</button>
+ </div>
+    <ul id="taskList" class="sortable">
+        <!-- Tâches ajoutées -->
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
